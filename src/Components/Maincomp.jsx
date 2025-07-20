@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux";
 import { addTask } from "../features/taskSlice";
 import { Outlet, useNavigate } from "react-router-dom";
 import Header from "./Header";
-import Sidebar from "./SideBar";
+import Sidebar from "./Sidebar";
 
 const Maincomp = () => {
   const dispatch = useDispatch();
