@@ -14,7 +14,7 @@ const rootElement = document.getElementById('root')
 const root = createRoot(rootElement)
 root.render(
   <StrictMode>
-    <GoogleOAuthProvider clientId='1046791269108-f2v696or6lumqgrbilntsmmol9jro5hq.apps.googleusercontent.com'>
+    <GoogleOAuthProvider clientId="1046791269108-f2v696or6lumqgrbilntsmmol9jro5hq.apps.googleusercontent.com">
       <Provider store={Store}>
         <PersistGate persistor={persistor}>
           <App />
